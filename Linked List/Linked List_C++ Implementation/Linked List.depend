@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1562999589 source:c:\users\joey_\documents\programming\linked list\main.cpp
+	<iostream>
+	<cstdlib>
+
+1566913386 source:d:\documents\programming\linked list\main.cpp
+	<iostream>
+	<cstdlib>
+
+1566913386 source:d:\documents\programming\data structure practice\linked list\linked list_c++ implementation\main.cpp
+	<iostream>
+	<cstdlib>
+
