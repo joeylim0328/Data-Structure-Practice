@@ -9,8 +9,21 @@ Code implentation to create a Node <br>
 Unlike arrays, random access cannot be performed with a linked list. In order to access any Node, it needs to traverse the linked list from the start.
 
 ## Insertion
+Insertion operation of linked list adds an item to the linked list.
 ### Insert a Node at the beginning of the list
+![insert_beginning_code](images/img3.png?raw=true)<br>
+1. Let the `*next` pointer of Node tmp point to the Node that Start Node is pointing to. <br>
+![insert_beginning_diagram_1](images/img4.png?raw=true)<br>
+2. Change Start Node to point to the recently created Node tmp. <br>
+![insert_beginning_diagram_2](images/img5.png?raw=true)<br>
 
+### Insert a Node at the end of the list 
+![insert_end_code](images/img6.png?raw=true)<br>
+1. Declare Node tmp that has `*next` pointer point to NULL. <br>
+![insert_end_diagram_1](images/img7.png?raw=true)<br>
+2. Use Node traverse to move towards the last Node (which has `*next` pointer point to NULL) of the list. <br>
+![insert_end_diagram_2](images/img8.png?raw=true)<br>
+3. Let the `*next` pointer of the last Node/Node traverse point to Node tmp.
 
 # References
 1. https://www.geeksforgeeks.org/python-linked-list/
