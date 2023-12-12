@@ -123,9 +123,7 @@ void deleteEnd(){  //Delete the Node at the end
         previous=traverse;
         traverse=traverse->next;
     }
-    tmp=previous;
     previous->next=NULL;
-    delete tmp;
     cout<< "The last item is successfully deleted."<<endl;
 }
 
