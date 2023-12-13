@@ -46,11 +46,15 @@ Deletion operation of linked list removes an item from the linked list.
 ![delete_end_code](images/img16.png?raw=true)<br>
 1. Use Node traverse to move towards the last Node (which has `*next` pointer point to NULL) of the list, meanwhile use Node previous to move towards the second last Node of the list. <br>
 ![delete_end_diagram_1](images/img17.png?raw=true)<br>
-2. Set Node previous to point to NULL, the last Node is now deleted.
+2. Set Node previous to point to NULL, the last Node is now deleted. <br>
 ![delete_end_diagram_2](images/img18.png?raw=true)<br>
 
 ### Delete a Node at a given position of the list
 ![delete_middle_code](images/img19.png?raw=true)<br>
+1. This step is the same as inserting a Node at a given position of the list. Use Node previous and Node traverse to reach to the given position (Example: given position is 3rd position). Node previous will move to given position-1 (2nd position), meanwhile Node traverse will move to the given position (3rd position). <br>
+![delete_middle_diagram_1](images/img20.png?raw=true)<br>
+2. Reconnect the `*next` pointer of Node previous to the Node that Node traverse is pointing to. Now, the 2nd Node of the link is removed.
+![delete_middle_diagram_2](images/img21.png?raw=true)<br>
 
 
 # References
